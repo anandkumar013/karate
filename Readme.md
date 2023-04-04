@@ -8,8 +8,12 @@ git branch -M main
 git push origin main --force
 
 
-
-karate013
-karate013@test.com
-karate013
-
+email
+: 
+"akkarate013@test.com"
+password
+: 
+"akkarate013"
+username
+: 
+"akkarate"

@@ -6,7 +6,7 @@ Feature: Test for home page
     Scenario: get All Tags
         Given path 'tags'
         When method get
-        Then status 201
+        Then status 200
 
     Scenario: get 10 articles request param
         Given params {limit:10 , offset:0}

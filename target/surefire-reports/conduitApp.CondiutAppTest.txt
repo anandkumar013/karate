@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: conduitApp.CondiutAppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.069 s <<< FAILURE! - in conduitApp.CondiutAppTest
+testParallel  Time elapsed: 3.064 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 200, expected: 201, response time in milliseconds: 1008, url: https://api.realworld.io/api/tags, response: 
+{"tags":["implementations","welcome","introduction","codebaseShow","ipsum","qui","et","quia","cupiditate","deserunt"]}
+classpath:conduitApp/feature/HomePage.feature:9 ==> expected: <0> but was: <1>
+	at conduitApp.CondiutAppTest.testParallel(ConduitAppTest.java:15)
+
